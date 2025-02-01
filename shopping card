@@ -1,0 +1,6 @@
+item=input("What do you want to buy?")
+quantity=int(input("How much do you want?"))
+price=float(input("How much does it cost?"))
+total=quantity*price
+print(f"You have bought {quantity} {item}/s")
+print(f"Your total is {total} euros")
