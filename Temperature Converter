@@ -1,0 +1,12 @@
+unit=input("Is the temperature C or F? (C/F)")
+if unit in ["C", "F"]:
+    temp=float(input("How much is the temp?"))
+    if unit=="C":
+        TempF= round((9*temp)/5+32,1)
+        print(f"The temp is {TempF} ° F")
+    elif unit=="F":
+        TempC=round((temp-32)*5/9, 2)
+        print(f"The temp in C is {TempC}°C")
+
+else:
+    print("Invalid input")
