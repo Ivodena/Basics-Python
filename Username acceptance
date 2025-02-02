@@ -1,0 +1,6 @@
+username=input("Insert your username:")
+width=len(username)
+if width<12 and username.isalpha()and not username.isdigit():
+    print("Correct")
+else:
+    print("Wrong username")
